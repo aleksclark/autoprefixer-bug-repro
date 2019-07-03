@@ -1,15 +1,9 @@
-GIT
-  remote: https://github.com/rails/execjs.git
-  revision: f6dc08c58ab4e1a467f64d471ee6e0127c2f14de
-  ref: f6dc08c
-  specs:
-    execjs (2.7.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
     autoprefixer-rails (9.6.0)
       execjs
+    execjs (2.7.0)
     irb (1.0.0)
 
 PLATFORMS
@@ -17,7 +11,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  execjs!
+  execjs
   irb
 
 BUNDLED WITH
